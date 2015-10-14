@@ -1,0 +1,34 @@
+{
+  "name": "woman",
+  "version": "0.0.0",
+  "description": "man pages that make you say \"woah\"",
+  "main": "woman.js",
+  "preferGlobal": true,
+  "bin": {
+    "woman": "woman.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dawsonbotsford/woman.git"
+  },
+  "keywords": [
+    "documentation",
+    "man",
+    "devtools",
+    "developer tool",
+    "design"
+  ],
+  "author": "Dawson Botsford <dawsonbotsford@gmail.com> (http://dawsonbotsford.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dawsonbotsford/woman/issues"
+  },
+  "homepage": "https://github.com/dawsonbotsford/woman#readme",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "open": "0.0.5"
+  }
+}
