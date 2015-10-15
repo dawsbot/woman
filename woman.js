@@ -5,16 +5,27 @@ var chalk = require('chalk');
 var fs = require('fs');
 var open = require('open');
 
-var fileLocation = '/tmp/woman.txt';
+var fileLocation = '/tmp/woman.html';
 
 var command = 'man';
-//
-// executes `man `
-process.argv = process.argv.slice(2);
 
-process.argv.forEach( function(arg) {
+// executes `man `
+args = process.argv.slice(2);
+
+args.forEach( function(arg) {
   command += ' ' + arg;
 });
+
+command += ' | groff -mandoc -Thtml';
+
+function writeToTmp(myText) {
+  fs.writeFile(fileLocation, myText, function(err) {
+      if(err) {
+          console.log(chalk.red('Error: could not write to /tmp\n' + err));
+          return console.log(err);
+      }
+  });
+}
 
 exec(command, function (error, stdout, stderr) {
   if (stdout !== null && stdout !== '') {
@@ -30,23 +41,3 @@ exec(command, function (error, stdout, stderr) {
   }
 });
 
-function writeToTmp(txt) {
-  fs.writeFile(fileLocation, txt, function(err) {
-      if(err) {
-          return console.log(err);
-      }
-      console.log('The file was saved!');
-  });
-  // exec(command, function (error, stdout, stderr) {
-  //   if (stdout !== null && stdout !== '') {
-  //     console.log(stdout);
-  //   }
-  //   if (stderr !== null && stderr !== '') {
-  //     console.log(chalk.yellow(stderr));
-  //   }
-  //   if (error !== null && error !== '') {
-  //     console.log(chalk.red(error));
-  //   }
-  // });
-
-}
