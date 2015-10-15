@@ -1,6 +1,6 @@
 {
   "name": "woman",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "man pages that make you say \"woah\"",
   "main": "woman.js",
   "preferGlobal": true,
@@ -21,7 +21,9 @@
     "developer tool",
     "design",
     "troff",
-    "unix"
+    "unix",
+    "linux",
+    "bsd"
   ],
   "author": "Dawson Botsford <dawsonbotsford@gmail.com> (http://dawsonbotsford.com)",
   "license": "MIT",
@@ -31,6 +33,7 @@
   "homepage": "https://github.com/dawsonbotsford/woman#readme",
   "dependencies": {
     "chalk": "^1.1.1",
-    "open": "0.0.5"
+    "open": "0.0.5",
+    "temp": "^0.8.3"
   }
 }
