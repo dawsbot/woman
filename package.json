@@ -1,6 +1,6 @@
 {
   "name": "woman",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "man pages that make you say \"woah\"",
   "main": "woman.js",
   "preferGlobal": true,
@@ -19,7 +19,9 @@
     "man",
     "devtools",
     "developer tool",
-    "design"
+    "design",
+    "troff",
+    "unix"
   ],
   "author": "Dawson Botsford <dawsonbotsford@gmail.com> (http://dawsonbotsford.com)",
   "license": "MIT",
