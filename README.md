@@ -12,7 +12,7 @@
   <a href = "https://github.com/dawsonbotsford/meread">
     <img src="https://img.shields.io/badge/meread-templated-4BD2A9.svg" alt="meread templated" />
   </a>
-  
+
   <a href="LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT Licensed" />
   </a>
@@ -23,7 +23,7 @@
 <br>
 
 ## Why
-Reading man pages in your terminal is cluttered and ugly. The first man page was written in **1971**, and they still look the same. With all of the modern UI trends sweeping the web world, we should not have to struggle with outdated instructions for the very software we have built the web upon.
+Reading man pages in your terminal is cluttered and ugly. The first man page was written in **1971**, and they still look the same. With all of the modern UI trends sweeping the web world, we should not have to struggle with outdated manual pages for the very software we have built the web upon.
 
 <br>
 <p align="center">
