@@ -4,14 +4,10 @@ var exec = require('child_process').exec;
 var chalk = require('chalk');
 var fs = require('fs');
 var open = require('open');
-var opn = require('opn');
 var temp = require('temp');
 var path = require('path');
 //Auto cleanup
 // temp.track();
-
-// var sudo = require('sudo');
-//var tmp = require('tmp');
 
 var dir = 'temp';
 
