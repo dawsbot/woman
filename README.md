@@ -34,12 +34,14 @@ Reading man pages in your terminal is cluttered and ugly. The first man page was
 Now you can open man pages in your browser using **beautiful, modern css** styling.
 
 <br>
+
 ## Installation
  ```bash
 npm install -g woman
 ```
 
 <br>
+
 ## Usage
 View your man pages in a modern way. Ports local ```man``` pages directly into your browser with modern UI and font trends.
 ```bash
