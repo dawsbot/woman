@@ -1,6 +1,6 @@
 {
   "name": "woman",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "man pages that make you say \"woah\"",
   "main": "woman.js",
   "preferGlobal": true,
