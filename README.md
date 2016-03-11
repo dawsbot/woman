@@ -40,6 +40,8 @@ Now you can open man pages in your browser using **beautiful, modern css** styli
 npm install -g woman
 ```
 
+**Warning**: Not Windows supported. Look at issue [#7](https://github.com/dawsonbotsford/woman/issues/7) for a help wanted.
+
 <br>
 
 ## Usage
