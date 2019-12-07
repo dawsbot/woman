@@ -37,7 +37,6 @@ function writeToTmp(myText) {
 
   var dirPath = temp.mkdirSync(dir);
 
-  // console.log('dirPath: ' + dirPath);
   var htmlPath = path.join(dirPath, arg + '.html');
 
   //Write html file to temp directory
