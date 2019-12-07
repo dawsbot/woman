@@ -33,7 +33,7 @@
   "homepage": "https://github.com/dawsonbotsford/woman#readme",
   "dependencies": {
     "chalk": "^1.1.1",
-    "open": "0.0.5",
+    "open": "^7.0.0",
     "temp": "^0.8.3"
   }
 }
