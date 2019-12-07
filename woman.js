@@ -49,7 +49,7 @@ function writeToTmp(myText) {
 }
 
 exec(manCommand, function (error, stdout, stderr) {
-  if (stdout !== null && stdout !== '') {
+  if (stderr === '' && stdout !== null && stdout !== '') {
     console.log(chalk.green('man command executed successfully'));
     writeToTmp(stdout);
   }
