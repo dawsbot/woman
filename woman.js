@@ -17,12 +17,10 @@ if (arg.length !== 1) {
   console.log(chalk.red('woops, woman only supports one argument for now!\nTry again'));
   process.exit(1);
 }
-// manCommand += ' ' + arg;
 manCommand += ' ' + arg + ' | groff -mandoc -Thtml';
 
 function writeToTmp(myText) {
 
-  //TODO: replace with a css file
   myText = '\
    <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.015/css/hack-extended.min.css">\
    <style>\
@@ -45,18 +43,10 @@ function writeToTmp(myText) {
   //Write html file to temp directory
   fs.writeFileSync(htmlPath, myText);
 
-  //Write css file to temp directory
-
   //Open html file in browser
-  // console.log('Opening htmlPath: ' + htmlPath);
   open(htmlPath);
 
-  //clearup temp files
-  // temp.track();
   temp.cleanupSync();
-  // temp.cleanup(function(err, stats) {
-  //   console.log(stats);
-  // });
 }
 
 exec(manCommand, function (error, stdout, stderr) {
