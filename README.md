@@ -40,7 +40,13 @@ Now you can open man pages in your browser using **beautiful, modern css** styli
 npm install -g woman
 ```
 
-**Warning**: Not Windows supported. Look at issue [#7](https://github.com/dawsonbotsford/woman/issues/7) for a help wanted.
+<br/>
+
+## Windows Users
+
+woman does not work by default in powershell, consider installing [Cygwin](http://cygwin.com) and [add it to your path](https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/).
+
+See [this prior issue for Windows info](https://github.com/dawsbot/woman/issues/7#issuecomment-564861162)
 
 <br>
 
