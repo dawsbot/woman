@@ -25,7 +25,6 @@
     "linux",
     "bsd"
   ],
-  "author": "Dawson Botsford <dawsonbotsford@gmail.com> (http://dawsonbotsford.com)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/dawsonbotsford/woman/issues"
