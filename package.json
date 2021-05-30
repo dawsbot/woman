@@ -12,24 +12,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dawsonbotsford/woman.git"
+    "url": "git+https://github.com/dawsbot/woman.git"
   },
   "keywords": [
     "documentation",
     "man",
     "devtools",
     "developer tool",
-    "design",
-    "troff",
     "unix",
     "linux",
     "bsd"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dawsonbotsford/woman/issues"
+    "url": "https://github.com/dawsbot/woman/issues"
   },
-  "homepage": "https://github.com/dawsonbotsford/woman#readme",
+  "homepage": "https://github.com/dawsbot/woman#readme",
   "dependencies": {
     "chalk": "^1.1.1",
     "open": "^7.0.0",
